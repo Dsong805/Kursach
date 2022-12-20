@@ -1,0 +1,67 @@
+header{
+	position: relative;
+	z-index:1000;
+}
+
+.wheated-color{
+	background-color:#E2E2E2;
+}
+
+
+body.center{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+}
+
+.pa{
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.center-block{
+	height: 100%;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+input, select, .doctors{
+	margin-bottom: 5px;
+}
+
+.container-500{
+	width: 500px;
+}
+
+.widther{
+	margin-left: 250px;
+}
+
+.calc-w{
+	width: calc(100% - 250px);
+}
+
+.left-side-menu{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 250px;
+	height: 100%;
+	background-color: #D2D2D2;
+	padding-top: 20px;
+}
+
+.hide-input{
+	display: none;
+}
+
+.receiption{
+	border:solid;
+	margin-bottom: 5px;
+}
